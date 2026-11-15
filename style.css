@@ -232,4 +232,22 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.service-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2563eb;
+    font-weight: bold;
+}
 
